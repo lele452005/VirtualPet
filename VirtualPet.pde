@@ -1,8 +1,9 @@
-
-void setup(){
+void setup()
+{
   size(400,400);
 }
-void draw(){
+void draw()
+{
   background(#FFFFFF);
   fill(#868582);
   triangle(150, 10, 120, 30, 200, 100);
@@ -10,6 +11,8 @@ void draw(){
   triangle(250, 270, 60,200, 60, 250);
   ellipse(150, 290, 50, 50);
   ellipse(240, 290, 50, 50);
+  ellipse(130, 180, 60, 50);
+  ellipse(270, 180, 60, 50);
   noStroke();
   fill(#BFBCB7);
   ellipse(200,200,150,200);
@@ -23,6 +26,6 @@ void draw(){
   fill(#FAF7F7);
   rect(70, 200, 10, 60);
   rect(90, 200, 10, 60);
-  rect(110, 200, 10, 60);
+  rect(110, 210, 10, 60);
 }
 
